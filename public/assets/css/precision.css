@@ -1,0 +1,387 @@
+body {
+	font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar { 
+    width: 0px;
+}
+::-webkit-scrollbar-thumb { 
+    background: #FF0000;
+}
+
+/*********NAVBAR*********/
+
+.precision .navbar {
+    background: #081e35;
+    color: #334431;
+    z-index: 10;
+    border-color: transparent;
+    padding: 15px;
+}
+.precision .navbar .navbar-header .img {
+    max-width: 181px;
+    margin-top: -12px;
+}
+.precision .navbar .navbar-nav {
+    background-color: #081e35;
+}
+.precision .navbar .navbar-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.precision .navbar .navbar-nav li .dropdown-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 14px;
+}
+.precision .navbar .navbar-nav li a .fa {
+    padding-left: 10px;
+}
+.precision .navbar .navbar-nav li a:hover:not(.search a) {
+    background-color: white;
+    color: black;
+}
+.precision .navbar .navbar-nav li a:focus:not(.search a) {
+    background-color: white;
+    color: black;
+}
+.precision .navbar .navbar-nav .search a:hover {
+    color: white;
+}
+.precision .navbar .navbar-nav .search a .fa:focus {
+    color: white;
+}
+.precision .navbar .navbar-nav li .dropdown-menu {
+    display: none;
+    margin-right: -36px;
+    background: #081e35;
+    color:white;
+    z-index:10;
+    margin-left: 150px;
+}
+.precision .navbar .navbar-nav li .dropdown-menu:hover {
+    margin-right: -36px;
+    background-color: black;
+    color: white;
+    z-index:10;
+}
+.precision .navbar .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.precision .navbar .navbar-header button .fa {
+    color: white;
+}
+@media screen and (max-width: 766px) {
+    .precision .navbar {
+    height: 76px;
+  } 
+}
+@media screen and (max-width: 767px) {
+    .precision .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent !important;
+        margin-top: 8px;
+    }
+}
+.precision .navbar .navbar-nav li input {
+    display: none;
+    border-color: transparent;
+    background-color: #eeeeeea6;
+    color: #d9edf7;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 7px;
+    background-image: url('../img/11.png');
+    background-position: 4px 3px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    padding: 6px 12px 5px 40px;
+    margin-top: 26px;
+    outline: none;
+}
+.precision .navbar .navbar-nav .close .fa {
+    display: none;
+    color: #eee;
+    margin-top: 27px;
+    padding-left: 6px;
+}
+.precision .navbar .navbar-brand {
+    font-size: 17px;
+    color: #081e35;
+    letter-spacing: 2px;
+    background-color: white;
+    border-radius: 51px;
+    font-weight: bold;
+}
+
+/*********NAVBAR END*********/
+
+.precision .banner {
+	background-image: url(../img/alumiums.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.precision .banner img {
+	margin-top: 150px;
+}
+@media screen and (max-width: 1330px) {
+	.precision .banner img {
+		max-width: 444px;
+	}
+}
+.precision .banner ul {
+	background-color: #5f9ea0a6;
+    padding: 7px;
+    margin-top: 170px;
+    margin-bottom: 0px;
+}
+.precision .banner ul li a {
+	font-size: 22px;
+    margin: 26px;
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 4px;
+    padding: 8px;
+}
+.precision .banner ul li a:hover {
+	background-color: #4aabae;
+}
+
+.precision .section1 {
+	background-image: url(../img/alumini.jpg);
+    background-size: cover;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 464px;
+}
+.precision .section1 .head {
+	text-align: center;
+    padding-bottom: 15px;
+}
+.precision .section1 .head h2 {
+	letter-spacing: 5px;
+    margin-bottom: 28px;
+}
+.precision .section1 .head p {
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.precision .section1 .head p span {
+	color: #f96c26;
+    font-weight: bold;
+}
+.precision .section1 .body .heads {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.precision .section1 .body .heads h2 {
+    letter-spacing: 5px;
+}
+.precision .section1 .body .box .sec {
+    padding-bottom: 30px;
+}
+.precision .section1 .body .box .sec #container {
+    display: inline-block;
+    overflow: hidden;            
+}
+.precision .section1 .body .box .sec img {
+    display: block;
+    transition: transform .9s;
+}
+.precision .section1 .body .box .sec #container:hover img {
+    transform: scale(1.3);
+    transform-origin: 50% 50%;
+}
+.precision .section1 .body .box .sec h2 {
+    color: #f96c26;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.precision .section1 .body .box .sec h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.precision .section1 .body .box .sec h3 span {
+    color: #f96c26;
+}
+@media screen and (max-width: 1650px) {
+    .precision .section1 {
+        margin-bottom: 0px;
+    }
+}
+
+/*********FOOTER START*********/
+
+.precision .footer {
+    background-color: #081e35;
+    padding-right: 0;
+    padding-top: 31px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -120;
+    border-top: 5px solid #1075a6;
+}
+@media screen and (max-width: 1650px) {
+    .precision .footer {
+        position: relative;
+    }
+}
+.precision .footer h3 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+}
+.precision .footer .first-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 160px;
+}
+.precision .footer .second-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 162px;
+}
+.precision .footer .third-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 179px;
+}
+.precision .footer .fourth-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 218px;
+    margin-top: 16px;
+}
+.precision .footer .fifth-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 218px;
+    margin-top: 10px;
+}
+.precision .footer ul {
+    padding-top: 8px;
+}
+.precision .footer ul li a {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.precision .footer ul li a:hover {
+    margin-left: 10px;
+}
+.precision .footer ul li a .fa {
+    padding-right: 6px;
+}
+.precision .footer ul li img {
+    max-width: 100px;
+    border-radius: 4px;
+    padding-right: 24px;
+    transition: transform .2s;
+}
+.precision .footer ul li img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+.precision .footer .row {
+    margin-right: 0px;
+    padding-left: 148px;
+    padding-bottom: 25px;
+}
+.precision .footer .four li p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.precision .footer .four li textarea {
+    outline: none;
+    border: none;
+}
+.precision .footer .four li button {
+    border-radius: 37px;
+    font-size: 30px;
+    width: 45px;
+    background-color: white;
+    border: none;
+    color: #081e35;
+    padding-right: 6px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.precision .footer .five li textarea {
+    outline: none;
+    border: none;
+    margin-bottom: 4px;
+}
+.precision .footer .five li button {
+    padding: 12px;
+    background-color: #bf0606;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.precision .footer .five .border {
+    border-bottom: 1px solid #808080d6;
+    max-width: 219px;
+}
+@media screen and (max-width: 513px) {
+    .precision .footer .row {
+        padding-left: 133px;
+    }
+}
+
+/*********FOOTER END*********/
+
+/*********COPYRIGHTS START*********/
+
+.precision .copyrights {
+    background-color: #ccc;
+    padding: 3px;
+    padding-top: 46px;
+    text-align: center;
+}
+.precision .copyrights summary {
+    letter-spacing: 1px;
+    color: rgb(0 0 0 / 75%);
+    padding-left: 49px;
+    margin-top: -32px;
+}
+.precision .copyrights summary b {
+    color: #081e35;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.precision .copyrights summary img {
+    width: 161px;
+}
+
+/*********COPYRIGHTS END*********/
+
+.precision .reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.precision .reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}

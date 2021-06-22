@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar { 
+    width: 0px;
+}
+::-webkit-scrollbar-thumb { 
+    background: #FF0000;
+}
+
+/*********NAVBAR*********/
+
+.die .navbar {
+    background: #081e35;
+    color: #334431;
+    z-index: 10;
+    border-color: transparent;
+    padding: 15px;
+}
+.die .navbar .navbar-header .img {
+    max-width: 181px;
+    margin-top: -12px;
+}
+.die .navbar .navbar-nav {
+    background-color: #081e35;
+}
+.die .navbar .navbar-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.die .navbar .navbar-nav li .dropdown-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 14px;
+}
+.die .navbar .navbar-nav li a .fa {
+    padding-left: 10px;
+}
+.die .navbar .navbar-nav li a:hover:not(.search a) {
+    background-color: white;
+    color: black;
+}
+.die .navbar .navbar-nav li a:focus:not(.search a) {
+    background-color: white;
+    color: black;
+}
+.die .navbar .navbar-nav .search a:hover {
+    color: white;
+}
+.die .navbar .navbar-nav .search a .fa:focus {
+    color: white;
+}
+.die .navbar .navbar-nav li .dropdown-menu {
+    display: none;
+    margin-right: -36px;
+    background: #081e35;
+    color:white;
+    z-index:10;
+    margin-left: 150px;
+}
+.die .navbar .navbar-nav li .dropdown-menu:hover {
+    margin-right: -36px;
+    background-color: black;
+    color: white;
+    z-index:10;
+}
+.die .navbar .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.die .navbar .navbar-header button .fa {
+    color: white;
+}
+@media screen and (max-width: 766px) {
+    .die .navbar {
+    height: 76px;
+  } 
+}
+@media screen and (max-width: 767px) {
+    .die .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent !important;
+        margin-top: 8px;
+    }
+}
+.die .navbar .navbar-nav li input {
+    display: none;
+    border-color: transparent;
+    background-color: #eeeeeea6;
+    color: #d9edf7;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 7px;
+    background-image: url('../img/11.png');
+    background-position: 4px 3px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    padding: 6px 12px 5px 40px;
+    margin-top: 26px;
+    outline: none;
+}
+.die .navbar .navbar-nav .close .fa {
+    display: none;
+    color: #eee;
+    margin-top: 27px;
+    padding-left: 6px;
+}
+.die .navbar .navbar-brand {
+    font-size: 17px;
+    color: #081e35;
+    letter-spacing: 2px;
+    background-color: white;
+    border-radius: 51px;
+    font-weight: bold;
+}
+
+/*********NAVBAR END*********/
+
+/*********SIDE MENU START*********/
+
+.die .icons {
+  position: fixed;
+  top: 120%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: -2px -2px 8px #9e4a48d1;
+  z-index: 999;
+}
+.die .icons a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  text-decoration: none;
+  cursor: help;
+}
+.die .icons form {
+    background: #eee;
+    margin-top: -1px;
+}
+.die .icons form input {
+    outline: none;
+    font-size: 15px;
+    background-color: #cccccc96;
+    border: 1px solid transparent;
+    padding-left: 10px;
+    padding: 8px;
+    margin: 12px;
+}
+.die .icons form textarea {
+    outline: none;
+    font-size: 16px;
+    background-color: #cccccc96;
+    border: 1px solid transparent;
+    padding: 16px;
+    margin: 12px;
+}
+.die .icons form button {
+    background-color: #c73331;
+    color: white;
+    width: 237px;
+    margin-left: 7px;
+    margin: 11px;
+}
+.die .icons form button:focus {
+    color: white;
+    outline: none;
+}
+.die .icons form button:hover {
+    color: white;
+}
+.die .icons a:hover {
+  text-decoration: none;
+}
+.die .icons .question {
+  background: #eee;
+  color: #333;
+  letter-spacing: 4px;
+}
+.die .icons .question .fa {
+    color: #e61e1a;
+    font-size: 18px;
+    padding-left: 38px;
+}
+.die .enquire {
+    top: 76%;
+}
+
+/*********SIDE MENU END*********/
+
+/*********BANNER*********/
+
+.die .banner {
+    margin-top: -20px;
+}
+.die .banner .carousel-inner .item .space .box {
+    height: 60px;
+    max-width: 340px;
+    background-color: #081e35;
+    margin-top: -97px;
+    border-top-right-radius: 113px;
+}
+.die .banner .carousel-inner .item .background1 {
+	background-image: url('../img/onu.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.die .banner .carousel-indicators li {
+    display: inline;
+    width: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff94;
+}
+.die .banner .carousel-inner .item .space .caption {
+    margin-bottom: 150px;
+    margin-top: 184px;
+    letter-spacing: 1px;
+    max-width: 804px;
+    background-color: #333333c9;
+    padding: 48px;
+}
+.die .banner .carousel-inner .item .space .caption h2 {
+	font-weight: bold;
+    color: #ffffffd9;
+    font-size: 49px;
+    padding-bottom: 17px;
+    letter-spacing: 1px;
+    line-height: 71px;
+}
+.die .banner .carousel-inner .item .space .caption h3 {
+    font-weight: bold;
+    color: #ffffffd9;
+    font-size: 26px;
+    margin-bottom: 14px;
+    line-height: 39px;
+    letter-spacing: 1px;
+}
+.die .banner .carousel-inner .item .space .caption p {
+    font-weight: bold;
+    color: #ffffffd9;
+    font-size: 18px;
+    line-height: 57px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.die .banner .carousel-inner .item .background2 {
+	background-image: url('../img/onu1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.die .banner .carousel-inner .item .background3 {
+	background-image: url('../img/onu3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*********BANNER END*********/
+
+/*********SECTION1 START*********/
+
+.die .section1 {
+    background-color: #081e35;
+    padding: 90px;
+    max-height: 583px;
+}
+.die .section1 .one img {
+    margin-bottom: 15px;
+}
+.die .section1 .three h2 {
+    color: white;
+    letter-spacing: 4px;
+}
+.die .section1 .three p {
+    color: white;
+    letter-spacing: 2px;
+}
+.die .section1 .three .fa {
+    color: #ff8100;
+    font-size: 30px;
+}
+.die .section1 .three a {
+    color: darkseagreen;
+    font-size: 19px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.die .section1 .three {
+    line-height: 33px;
+}
+@media screen and (max-width: 991px) {
+    .die .section1 .three p {
+        color: black;
+    }
+}
+
+/*********SECTION1 END*********/
+
+.die .section2 {
+    padding-top: 92px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+.die .section2 .head {
+	text-align: center;
+	border-bottom: 3px solid #40a1ad;
+    padding-bottom: 11px;
+    margin-bottom: 67px;
+}
+.die .section2 .head h2 {
+	letter-spacing: 5px;
+}
+.die .section2 .head h2 .fa {
+	color: #40a1ad;
+    font-size: 37px;
+    padding-right: 10px;
+}
+.die .section2 .box {
+    background-color: #00000040;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 3%), 0 6px 20px 0 rgb(0 0 0 / 29%);
+    height: 272px;
+}
+.die .section2 .body .box .one .fa {
+	color: #40a1ad;
+    font-size: 40px;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+.die .section2 .body .box h2 {
+	margin-top: 12px;
+    letter-spacing: 1px;
+}
+.die .section2 .body .box p {
+	letter-spacing: 1px;
+    line-height: 23px;
+}
+.die .section2 .boxes {
+    background-color: #000000;
+    max-width: 290px;
+    height: 55px;
+    border-top-right-radius: 88px;
+    margin-top: 66px;
+}
+@media screen and (max-width: 991px) {
+    .die .section2 {
+        margin-top: 625px;
+    }
+}
+
+.die .section3 {
+    background-color: #000000;
+    padding: 75px;
+    margin-bottom: 464px;
+}
+.die .section3 .one h2 {
+    color: white;
+    letter-spacing: 3px;
+}
+.die .section3 .one p {
+    color: white;
+    letter-spacing: 3px;
+}
+.die .section3 .one a {
+    color: aquamarine;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.die .section3 .two .v {
+    height: 299px;
+    max-width: 341px;
+    color: #b4b4b461;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+.die .section3 .two .imu1 {
+    background-image: url(../img/alus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.die .section3 .two .imu2 {
+    background-image: url('../img/alus3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.die .section3 .two .imu3 {
+    background-image: url(../img/alus2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.die .section3 .two .v h2 {
+    margin: 0;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    width: 100%;
+    background-color: #ff6a00;
+}
+.die .section3 .two .v h2 .fa {
+    padding-right: 22px;
+}
+@media screen and (max-width: 1650px) {
+    .die .section3 {
+        margin-bottom: 0px;
+    }
+}
+/*********FOOTER START*********/
+
+.die .footer {
+    background-color: #081e35;
+    padding-right: 0;
+    padding-top: 31px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -120;
+    border-top: 5px solid #1075a6;
+}
+@media screen and (max-width: 1650px) {
+    .die .footer {
+        position: relative;
+    }
+}
+.die .footer h3 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+}
+.die .footer .first-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 160px;
+}
+.die .footer .second-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 162px;
+}
+.die .footer .third-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 179px;
+}
+.die .footer .fourth-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 218px;
+    margin-top: 16px;
+}
+
+.die .footer .fifth-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 218px;
+    margin-top: 10px;
+}
+.die .footer ul {
+    padding-top: 8px;
+}
+.die .footer ul li a {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.die .footer ul li a:hover {
+    margin-left: 10px;
+}
+.die .footer ul li a .fa {
+    padding-right: 6px;
+}
+.die .footer ul li img {
+    max-width: 100px;
+    border-radius: 4px;
+    padding-right: 24px;
+    transition: transform .2s;
+}
+.die .footer ul li img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+.die .footer .row {
+    margin-right: 0px;
+    padding-left: 148px;
+    padding-bottom: 25px;
+}
+.die .footer .four li p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.die .footer .four li textarea {
+    outline: none;
+    border: none;
+}
+.die .footer .four li button {
+    border-radius: 37px;
+    font-size: 30px;
+    width: 45px;
+    background-color: white;
+    border: none;
+    color: #081e35;
+    padding-right: 6px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.die .footer .five li textarea {
+    outline: none;
+    border: none;
+    margin-bottom: 4px;
+}
+.die .footer .five li button {
+    padding: 12px;
+    background-color: #bf0606;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.die .footer .five .border {
+    border-bottom: 1px solid #808080d6;
+    max-width: 219px;
+}
+@media screen and (max-width: 513px) {
+    .die .footer .row {
+        padding-left: 133px;
+    }
+}
+
+/*********FOOTER END*********/
+
+/*********COPYRIGHTS START*********/
+
+.die .copyrights {
+    background-color: #ccc;
+    padding: 3px;
+    padding-top: 46px;
+    text-align: center;
+}
+.die .copyrights summary {
+    letter-spacing: 1px;
+    color: rgb(0 0 0 / 75%);
+    padding-left: 49px;
+    margin-top: -32px;
+}
+.die .copyrights summary b {
+    color: #081e35;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.die .copyrights summary img {
+    width: 161px;
+}
+
+/*********COPYRIGHTS END*********/
+
+.die .reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.die .reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}

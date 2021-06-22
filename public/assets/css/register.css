@@ -1,0 +1,72 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.register .body-background-img {
+	background-image: url('../img/image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.register .body-background-img .register-background-color {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+	background-color: white;
+}
+.register .register-padding {
+	padding: 34px;
+    padding-bottom: 23px;
+    padding-top: 11px;
+}
+.register .register-padding .heading h3 {
+	text-transform: uppercase;
+    color: #089ee8;
+    font-weight: bold;
+    font-size: 19px;
+}
+.register .register-padding .heading h3 .color {
+	color: #000000c7;
+}
+.register .register-padding .sub p {
+	font-weight: bold;
+    color: #808080b3;
+    margin-top: -7px;
+}
+.register .register-padding .register-form {
+	color: gray;
+    margin-top: 17px;
+}
+.register .register-padding .register-form .particular input {
+	height: 4vh;
+	border-color: transparent;
+    border: 1px solid #80808040;
+}
+.register .register-padding .register-form .checkboxs input {
+	border-color: transparent;
+    border: 1px solid #80808040;
+}
+.register .register-padding .register-form .btn {
+	background-color: #0f7ae8d4;
+    color: white;
+    font-weight: bold;
+    height: 39px;
+    margin-top: 7px;
+}
+.register .register-padding .footer p {
+	text-align: center;
+    padding-top: 21px;
+    font-weight: bold;
+    color: gray;
+}
+.register .register-padding .footer p a {
+	text-decoration: none;
+	color: gray;
+	border-bottom: 2px solid gray;
+}
+.register .register-padding .footer p a:hover {
+	color: #089ee8;
+    border-bottom: 2px dashed #089ee8c9;
+}

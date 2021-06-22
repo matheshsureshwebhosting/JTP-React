@@ -1,0 +1,474 @@
+body {
+	font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar { 
+    width: 0px;
+}
+::-webkit-scrollbar-thumb { 
+    background: #FF0000;
+}
+
+/*********NAVBAR*********/
+
+.management .navbar {
+    background: #081e35;
+    color: #334431;
+    z-index: 10;
+    border-color: transparent;
+    padding: 15px;
+}
+.management .navbar .navbar-header .img {
+    max-width: 181px;
+    margin-top: -12px;
+}
+.management .navbar .navbar-nav {
+    background-color: #081e35;
+}
+.management .navbar .navbar-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.management .navbar .navbar-nav li .dropdown-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 14px;
+}
+.management .navbar .navbar-nav li a .fa {
+    padding-left: 10px;
+}
+.management .navbar .navbar-nav li a:hover:not(.search a) {
+    background-color: white;
+    color: black;
+}
+.management .navbar .navbar-nav li a:focus:not(.search a) {
+    background-color: white;
+    color: black;
+}
+.management .navbar .navbar-nav .search a:hover {
+    color: white;
+}
+.management .navbar .navbar-nav .search a .fa:focus {
+    color: white;
+}
+.management .navbar .navbar-nav li .dropdown-menu {
+    display: none;
+    margin-right: -36px;
+    background: #081e35;
+    color:white;
+    z-index:10;
+    margin-left: 150px;
+}
+.management .navbar .navbar-nav li .dropdown-menu:hover {
+    margin-right: -36px;
+    background-color: black;
+    color: white;
+    z-index:10;
+}
+.management .navbar .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.management .navbar .navbar-header button .fa {
+    color: white;
+}
+@media screen and (max-width: 766px) {
+    .management .navbar {
+    height: 76px;
+  } 
+}
+@media screen and (max-width: 767px) {
+    .management .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent !important;
+        margin-top: 8px;
+    }
+}
+.management .navbar .navbar-nav li input {
+    display: none;
+    border-color: transparent;
+    background-color: #eeeeeea6;
+    color: #d9edf7;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 7px;
+    background-image: url('../img/11.png');
+    background-position: 4px 3px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    padding: 6px 12px 5px 40px;
+    margin-top: 26px;
+    outline: none;
+}
+.management .navbar .navbar-nav .close .fa {
+    display: none;
+    color: #eee;
+    margin-top: 27px;
+    padding-left: 6px;
+}
+.management .navbar .navbar-brand {
+    font-size: 17px;
+    color: #081e35;
+    letter-spacing: 2px;
+    background-color: white;
+    border-radius: 51px;
+    font-weight: bold;
+}
+
+/*********NAVBAR END*********/
+
+/*********SIDE MENU START*********/
+
+.management .icons {
+  position: fixed;
+  top: 120%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: -2px -2px 8px #9e4a48d1;
+  z-index: 999;
+}
+.management .icons a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  text-decoration: none;
+  cursor: help;
+}
+.management .icons form {
+    background: #eee;
+    margin-top: -1px;
+}
+.management .icons form input {
+    outline: none;
+    font-size: 15px;
+    background-color: #cccccc96;
+    border: 1px solid transparent;
+    padding-left: 10px;
+    padding: 8px;
+    margin: 12px;
+}
+.management .icons form textarea {
+    outline: none;
+    font-size: 16px;
+    background-color: #cccccc96;
+    border: 1px solid transparent;
+    padding: 16px;
+    margin: 12px;
+}
+.management .icons form button {
+    background-color: #c73331;
+    color: white;
+    width: 237px;
+    margin-left: 7px;
+    margin: 11px;
+}
+.management .icons form button:focus {
+    color: white;
+    outline: none;
+}
+.management .icons form button:hover {
+    color: white;
+}
+.management .icons a:hover {
+  text-decoration: none;
+}
+.management .icons .question {
+  background: #eee;
+  color: #333;
+  letter-spacing: 4px;
+}
+.management .icons .question .fa {
+    color: #e61e1a;
+    font-size: 18px;
+    padding-left: 38px;
+}
+.management .enquire {
+    top: 76%;
+}
+
+/*********SIDE MENU END*********/
+
+/*BANNER*/
+
+.management .banner {
+	padding-bottom: 60px;
+    padding-top: 348px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 5px solid #1075a6;
+}
+@media screen and (max-width: 1650px) {
+	.management .banner {
+		position: relative;
+	}
+}
+.management .banner .breadcrumb {
+	background-color: #333333c9;
+    float: right;
+    margin-right: 30px;
+}
+.management .banner .breadcrumb a {
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.management .banner .one a {
+	color: #f96c26;
+}
+.management .banner .two a {
+	color: white;
+}
+ 
+/*BANNER END*/
+
+/*SECTION 1 START*/
+
+.management .section1 {
+	background-color: #f5f5f5;
+    margin-bottom: 464px;
+    margin-top: 474px;
+}
+@media screen and (max-width: 1650px) {
+	.management .section1 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+}
+.management .section1 .head {
+	text-align: center;
+    letter-spacing: 6px;
+    margin: 70px;
+}
+.management .section1 .body .copy {
+    margin-left: -30px;
+}
+.management .section1 .body {
+    background-color: white;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+}
+.management .section1 .body img {
+    max-height: 419px;
+    width: 100%;
+    background-color: aquamarine;
+    object-fit: cover;
+}
+.management .section1 .body h2 {
+    letter-spacing: 3px;
+    margin-bottom: 37px;
+}
+.management .section1 .body .borders {
+    border-left: 2px solid coral;
+    margin-left: 5 px;
+    margin-top: 27px;
+}
+.management .section1 .body .borders p {
+    letter-spacing: 2px;
+    padding-left: 22px;
+    line-height: 2;
+}
+.management .section1 .body .borders p span {
+    color: black;
+    font-weight: bold;
+}
+.management .section1 .foot h1 {
+    color: coral;
+    font-size: 80px;
+    margin-top: 7px;
+}
+.management .section1 .foot .row {
+    margin-bottom: 35px;
+}
+.management .section1 .foot .base p {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.management .section1 .foot .base ul li {
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+.management .section1 .foot .base ul li .fa {
+    padding-right: 10px;
+}
+.management .section1 .feet {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.management .section1 .feet ul li {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/*SECTION 1 END*/
+
+/*********FOOTER START*********/
+
+.management .footer {
+    background-color: #081e35;
+    padding-right: 0;
+    padding-top: 31px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    border-top: 5px solid #1075a6;
+}
+@media screen and (max-width: 1650px) {
+	.management .footer {
+		position: relative;
+	}
+}
+.management .footer h3 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+}
+.management .footer .first-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 160px;
+}
+.management .footer .second-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 162px;
+}
+.management .footer .third-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 179px;
+}
+.management .footer .fourth-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 218px;
+    margin-top: 16px;
+}
+.management .footer .fifth-heading {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #00a5c8;
+    max-width: 218px;
+    margin-top: 10px;
+}
+.management .footer ul {
+    padding-top: 8px;
+}
+.management .footer ul li a {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.management .footer ul li a:hover {
+    margin-left: 10px;
+}
+.management .footer ul li a .fa {
+    padding-right: 6px;
+}
+.management .footer ul li img {
+    max-width: 100px;
+    border-radius: 4px;
+    padding-right: 24px;
+    transition: transform .2s;
+}
+.management .footer ul li img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+.management .footer .row {
+    margin-right: 0px;
+    padding-left: 148px;
+    padding-bottom: 25px;
+}
+.management .footer .four li p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.management .footer .four li textarea {
+    outline: none;
+    border: none;
+}
+.management .footer .four li button {
+    border-radius: 37px;
+    font-size: 30px;
+    width: 45px;
+    background-color: white;
+    border: none;
+    color: #081e35;
+    padding-right: 6px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.management .footer .five li textarea {
+    outline: none;
+    border: none;
+    margin-bottom: 4px;
+}
+.management .footer .five li button {
+    padding: 12px;
+    background-color: #bf0606;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.management .footer .five .border {
+    border-bottom: 1px solid #808080d6;
+    max-width: 219px;
+}
+@media screen and (max-width: 513px) {
+    .management .footer .row {
+        padding-left: 133px;
+    }
+}
+
+/*********FOOTER END*********/
+
+/*********COPYRIGHTS START*********/
+
+.management .copyrights {
+    background-color: #ccc;
+    padding: 3px;
+    padding-top: 46px;
+    text-align: center;
+}
+.management .copyrights summary {
+    letter-spacing: 1px;
+    color: rgb(0 0 0 / 75%);
+    padding-left: 49px;
+    margin-top: -32px;
+}
+.management .copyrights summary b {
+    color: #081e35;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.management .copyrights summary img {
+    width: 161px;
+}
+
+/*********COPYRIGHTS END*********/

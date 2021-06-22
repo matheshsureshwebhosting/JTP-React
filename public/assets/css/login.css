@@ -1,0 +1,88 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.login .body-background-img {
+	background-image: url('../img/image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.login .body-background-img .register-background-color {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+	background-color: white;
+	width: 466px;
+    height: 410.25px;
+}
+.login .register-padding {
+	padding: 34px;
+    padding-bottom: 23px;
+    padding-top: 11px;
+}
+.login .register-padding .heading h3 {
+	text-transform: uppercase;
+    color: #089ee8;
+    font-weight: bold;
+    font-size: 19px;
+}
+.login .register-padding .heading h3 .color {
+	color: #000000c7;
+}
+.login .register-padding .sub p {
+	font-weight: bold;
+    color: #808080b3;
+    margin-top: -7px;
+}
+.login .register-padding .register-form {
+	color: gray;
+    margin-top: 17px;
+}
+.login .register-padding .register-form .particular input {
+	height: 5vh;
+	border-color: transparent;
+    border: 1px solid #80808040;
+}
+.login .register-padding .register-form .particular .eye {
+    background-image: url(eye.png);
+    background-repeat: no-repeat;
+    background-position: 97% 13px;
+    background-size: 20px;
+    height: 49px;
+}
+.login .register-padding .register-form .text-right a {
+    text-decoration: none;
+    color: gray;
+	border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+.login .register-padding .register-form .text-right a:hover {
+    color: #0f7ae8d4;
+    border-bottom: 2px dashed #0f7ae8d4;
+}
+.login .register-padding .register-form .btn {
+	background-color: #0f7ae8d4;
+    color: white;
+    font-weight: bold;
+    height: 39px;
+    margin-top: 21px;
+    letter-spacing: 1px;
+}
+.login .register-padding .footer p {
+	text-align: center;
+    padding-top: 21px;
+    font-weight: bold;
+    color: gray;
+}
+.login .register-padding .footer p a {
+	text-decoration: none;
+	color: #089ee8;
+    border-bottom: 2px dashed #089ee8c9;
+}
+.login .register-padding .footer p a:hover {
+	color: #0f7ae8d4;
+	border-bottom: 2px dashed #0f7ae8d4;
+}
